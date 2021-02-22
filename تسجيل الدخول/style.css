@@ -1,0 +1,101 @@
+html{
+    background-color:#f3e0e2 ;
+}
+
+
+.container{
+    margin:0 auto ;
+    display:grid ;
+    background-color: white;
+    width:900px ;
+    height:550px ;
+    border-radius:10px ;
+
+}
+
+.right{
+    position: relative;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+    background-color:#ff445c;
+    grid-column-start:2  ;
+    grid-column-end:3 ;
+    grid-row-start:1 ;
+    grid-row-end:3 ; 
+    
+}
+
+.right h1{
+    text-align: center;
+    color:white ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right p{
+    text-align:justify;
+    text-align: center;
+    color:white ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.right .contents{
+    position: absolute;
+    top:150px ;
+    left:20px ;
+    right: 20px;
+}
+
+
+.left{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+    grid-column-start:1  ;
+    grid-column-end:2 ;
+    grid-row-start:1 ;
+    grid-row-end:3 ; 
+}
+
+.left .contents{
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+    gap: 5px;
+    position: absolute;
+    top:25px ;
+    left:80px ;
+}
+
+
+.left h1{
+    color:black ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left h4{
+    text-align: center;
+    color:black ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(85, 85, 85);
+}
+
+.left img{
+    width: 50px;
+    height:50px;
+    
+}
+
+.left input{
+    width:300px ;
+    height: 40px;
+    border-radius:1px ;
+    margin-bottom:10px ;
+    background-color: #eeeeee;
+    border: none;
+    color: gray;
+    padding: 5px;
+}
+
+
